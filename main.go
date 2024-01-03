@@ -14,6 +14,7 @@ func main() {
 	mostRepeated(wordList2)
 
 	// Question 3 Example:
+	fmt.Println("Question 3 [Output]:")
 	recursiveFunc(9)
 }
 
@@ -66,7 +67,7 @@ func mostRepeated(list []string) {
 			mostRepeatedWord = word
 		}
 	}
-	fmt.Println("Queston 2 - Most repeated word:", mostRepeatedWord)
+	fmt.Println("Question 2 - Most repeated word:", mostRepeatedWord)
 }
 
 // ****************** End of Question 3 **************
