@@ -12,6 +12,9 @@ func main() {
 	// Question 2 Example:
 	wordList2 := []string{"apple", "pie", "apple", "red", "red", "red"}
 	mostRepeated(wordList2)
+
+	// Question 3 Example:
+	recursiveFunc(9)
 }
 
 // Qusetion 1 (selection sort)
@@ -41,6 +44,12 @@ func nOfAs(word string) int {
 // ****************** End of Question 1 **************
 
 // Question 2
+func recursiveFunc(n int) {
+	if n > 1 {
+		recursiveFunc(n / 2)
+		fmt.Println(n)
+	}
+}
 
 // ****************** End of Question 2 **************
 
